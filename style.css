@@ -7,6 +7,26 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.Texte {
+    font-size: 1.5em;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Citation {
+    width: 85%;
+}
+
+.Auteur {
+    line-height: 0px;
+    font-size: 14px;
+}
+
+.Realisation {
+    width: 40%;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -100,7 +120,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: #FFFFFF;
 }
 
 .d-bloc button:hover {
@@ -289,7 +309,6 @@ a:hover {
 
 .navbar {
     margin-bottom: 0;
-    z-index: 1;
 }
 
 .navbar-brand {
@@ -319,7 +338,6 @@ a:hover {
     padding-top: 2px;
     margin-right: -16px;
     float: right;
-    z-index: 1;
 }
 
 .nav > li {
@@ -359,7 +377,6 @@ a:hover {
 .nav-invert .navbar-brand {
     float: right;
     position: relative;
-    z-index: 2;
 }
 
 @media (min-width: 768px) {
@@ -677,7 +694,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -704,12 +721,12 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
+h3 {
     font-size: 22px;
     line-height: 1.4em;
 }
 
-h3 {
+h2 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -771,20 +788,24 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #E32C0B;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffab84!important;
+}
+
+.tc-whitep2 {
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #E32C0B;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #9C6334!important;
     color: #FFFFFF!important;
 }
 
@@ -823,6 +844,10 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+.Partenaires {
+    color: black !important;
 }
 
 @media (max-width: 1024px) {
