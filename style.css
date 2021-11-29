@@ -173,7 +173,7 @@ a:hover {
     color: rgba(255, 255, 255, 1);
 }
 
-.d-bloc .navbar-toggle .icon-bar {
+.d-bloc .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
 
@@ -272,7 +272,7 @@ a:hover {
     color: rgba(0, 0, 0, 1);
 }
 
-.l-bloc .navbar-toggle .icon-bar {
+.l-bloc .icon-bar {
     color: rgba(0, 0, 0, .6);
 }
 
@@ -355,16 +355,9 @@ a:hover {
     background: transparent;
 }
 
-.navbar-toggle {
-    margin: 10px 10px 0 0;
-    border: 0px;
-}
 
-.navbar-toggle:hover {
-    background: transparent!important;
-}
 
-.navbar-toggle .icon-bar {
+.icon-bar {
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
 }
@@ -414,7 +407,7 @@ a:hover {
         margin-right: 0px;
         margin-top: 20px;
     }
-    .nav-center.mini-nav .navbar-toggle {
+    .nav-center.mini-nav  {
         float: none;
         margin: 10px auto 0;
     }
@@ -527,25 +520,11 @@ button {
     box-shadow: none;
 }
 
-.scrollToTop {
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    opacity: 0;
-    z-index: 500;
-    transition: all .3s ease-in-out;
-}
 
-.scrollToTop span {
+span {
     margin-top: 6px;
 }
 
-.showScrollTop {
-    font-size: 14px;
-    opacity: 1;
-}
 
 a[data-lightbox] {
     position: relative;
@@ -873,13 +852,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -897,10 +876,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -909,8 +885,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
@@ -994,7 +968,7 @@ h4 {
         float: none;
         width: 100%;
     }
-    .nav-invert .navbar-toggle {
+    .nav-invert  {
         float: left;
         margin-left: 10px;
     }
