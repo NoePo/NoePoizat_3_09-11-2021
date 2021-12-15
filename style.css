@@ -28,12 +28,12 @@ a:focus {
     border: 2px dashed black; 
 }
 
-.next-lightbox {
-
+.btn-atomic-tangerine:focus {
+    border: 2px dashed black
 }
 
-.blocs-lightbox-close-btn:focus {
-    border: 2px dashed black
+#blocs-lightbox-close-btn:focus {
+    border: 2px dashed black;
 }
 
 .Auteur {
